@@ -9,6 +9,15 @@ $cd driver-shipments
 Run the command:  
 $composer install
 
+Copy enviroments variables:  
+$cp .env.example .env
+
+Generate key:  
+$php artisan key:generate
+
+Generate clases:   
+$composer dump-autoload
+
 Then run the command:  
 $php artisan serve
 
