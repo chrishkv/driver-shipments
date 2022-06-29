@@ -12,7 +12,7 @@
                     <span class="text-danger">{{ $message }}</span>
             @enderror
             <div class="mb-3">
-                <label for="adressFile" class="form-label">Drivers File</label>
+                <label for="adressFile" class="form-label">Adress File</label>
                 <input class="form-control" type="file" id="adressFile" name="adressFile">
             </div>
             @error('adressFile')
